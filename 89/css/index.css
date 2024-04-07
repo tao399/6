@@ -1,0 +1,91 @@
+#app
+{
+    margin: auto;
+    background-color: rgb(253, 253, 250);
+    width: 900px;
+    height: 900px;
+}
+#a{
+    margin-top: 20px;
+}
+.a1{
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.a2{
+    float: right;
+}
+
+#b{
+
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.b2{
+    background-color:#0eeca2;
+    width: 350px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+   
+}
+h1{
+    color:#8ec657;
+	font-size:24px;
+	font-family:"黑体";
+}
+#c{
+    background-color: rgb(218, 42, 42);
+    height: 30px;
+}
+ul{
+   list-style: none;
+   text-decoration:none;
+   
+}
+
+li{
+float: left;
+margin-left: 20px;
+color: #eafa05;
+padding: 3px;
+}
+
+.left{
+	float: left;
+}
+.right_top
+{
+	display: flex;
+}
+
+ #banner{
+	 width: 510px ; 
+	 height:314px; 
+	border:1px solid #8ec657;
+    overflow:hidden;
+}
+#banner .mainbox{
+   overflow:hidden;
+   position:relative;
+}
+#banner .flashbox{
+  overflow:hidden;
+  position:relative;
+}
+#banner .imagebox{
+   text-align:right;
+   position:relative;
+   z-index:999;
+}
+#banner .bitdiv{
+	display:inline-block;
+width:18px;
+height:18px;
+margin:0 10px 10px 0px;
+cursor:pointer;float:right;
+}
+#banner .defimg{background-image:url(../images/02.png)}
+#banner .curimg{background-image:url(../images/01.png)}
